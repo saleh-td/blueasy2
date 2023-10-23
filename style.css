@@ -1,0 +1,289 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Segoe UI";
+}
+
+.arrierePlan {
+    background-image: url("heromono.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.enTête {
+    background-color: rgba(0, 0, 0, 0.31);
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.ecrire {
+    font-weight: bolder;
+    color: white;
+    font-size: 1.30em;
+}
+
+.ecrire1 {
+    font-weight: bolder;
+    color: blue;
+    font-size: 1.30em;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 1.30em;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: #007bff;
+}
+.interne {
+    text-align: center;
+    padding: 150px;
+    text-transform : uppercase;
+}
+.text1, .text2 {
+    font-size: 1.3em;
+    color: white;
+    margin: 0;
+    font-weight: bolder;
+}
+.pictures{
+    background-color: #0b0e1268;
+    text-decoration-color: rgba(255, 255, 255, 0.42);
+}
+
+.contenu{
+        display: flex;
+        flex: 1;
+        text-align: left;
+        padding: 10px;
+
+}
+.service{
+
+    padding: 40px;
+}
+
+.portfolio{
+    padding-bottom: 10vh;
+    padding-top: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    text-transform : uppercase;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+.navbar.hover{
+    text-decoration: underline;
+    color: #007bff;
+}
+
+.port{
+    text-align: left;
+}
+.accuracies a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 1.30em;
+}
+
+.accuracies a :hover {
+    text-decoration: underline;
+    color: #007bff;
+}
+.portrait{
+    display: flex;
+    justify-content: center;
+}
+
+ .nature1 {
+     background-image: url('pipe.jpg');
+
+ }
+.nature2 {
+    background-image: url('Mangroves,_Orpheus_Island,_Australia.jpeg');
+
+
+
+}
+.nature3 {
+    background-image: url('lok.jpg');
+
+
+}
+.nature4 {
+    background-image: url('tnc_52987642_Full.jpg');
+
+
+}
+.nature5 {
+    background-image: url('images.jpg');
+
+}
+.nature6 {
+    background-image: url('whois.jpg');
+}
+
+.portrait .nature1,
+.portrait .nature2,
+.portrait .nature3,
+.portrait .nature4,
+.portrait .nature5,
+.portrait.nature6 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 250px;
+    transition: flex 1s cubic-bezier(.16,1.41,.53,-1.05);
+}
+.new-section {
+    display: flex;
+    background-color: #0b0e1268;
+    padding: 100px;
+    text-decoration-color: antiquewhite;
+}
+
+.left-content {
+    flex: 1;
+}
+
+.right-content {
+    flex: 1;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+p {
+    line-height: 1.5;
+    margin: 0;
+}
+.twitter{
+    background-color: rgba(85, 181, 237, 0.52);
+    padding: 100px;
+
+}
+.twit1{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    text-decoration-color: antiquewhite;
+}
+
+.twitter.p{
+    text-align: justify;
+}
+
+.infos{
+    background-color: rgba(255, 255, 255, 0.42);
+    padding: 100px;
+}
+
+.suiteinfos1{
+    width: 500px;
+}
+
+.suiteinfos2{
+    width: 500px;
+}
+
+.suiteinfos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.infosp{
+    padding-bottom: 20px;
+}
+.reseaux{
+    display: flex;
+}
+.reseaux img{
+    height: 50px;
+   
+}
+.testi{
+    padding: 100px;
+}
+.testi1{
+    display: flex;
+    justify-content: space-between;
+}
+.testi1 img{
+    height: 30px;
+}
+.bleu{
+    color:aqua;
+    font-weight: bold;
+    margin-top:20px;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+.contenair{
+    display: flex;
+}
+.fille1{
+    display: flex;
+    flex-direction: column;
+}
+input, textarea{
+    background-color:transparent;
+    border: solid 1px white;
+    border-radius: 2px;
+    
+}
+input[type=submit] {
+    color:white;
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    margin: 10px auto; 
+    display: block;
+}
+textarea{
+    height: 180px;
+}
+.fille2{
+    text-align: end;
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color:black;
+    color: white;
+  }
+  
